@@ -10,7 +10,7 @@ function sumZero(n: number): number[] {
          res.push(i, -i);
     }
   
-  return res;
+    return res;
 };
 
 console.log(sumZero(5)); // Output: [-2, -1, 0, 1, 2]
